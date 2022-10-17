@@ -41,3 +41,5 @@ string[] FindSymbols(string[] array)
 }
 
 string[] ar = FindSymbols(arr);
+Console.Write("Массив итоговый: ");
+Print(ar);
