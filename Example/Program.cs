@@ -11,3 +11,8 @@ void Fill(string[] array)
         array[i] = Convert.ToString(str[index]);
     }    
 }
+
+void Print(string[] array)
+{
+    Console.WriteLine(String.Join(" ", array));
+}
