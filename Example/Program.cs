@@ -16,3 +16,8 @@ void Print(string[] array)
 {
     Console.WriteLine(String.Join(" ", array));
 }
+
+Fill(arr);
+Console.Write("Массив начальный: ");
+Print(arr);
+Console.WriteLine();
