@@ -39,3 +39,5 @@ string[] FindSymbols(string[] array)
    }
    return symbols;
 }
+
+string[] ar = FindSymbols(arr);
