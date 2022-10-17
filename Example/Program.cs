@@ -21,3 +21,21 @@ Fill(arr);
 Console.Write("Массив начальный: ");
 Print(arr);
 Console.WriteLine();
+
+string[] FindSymbols(string[] array)
+{   
+   char sym = '0';
+   int size = array.Length;
+   string[] symbols = new string[size];
+   int count = 0;
+   for (int i = 0; i < size; i++)
+   {
+      sym = Convert.ToChar(array[i]);  
+      if (!(sym >= '0' && sym <= '9'))
+      {
+        symbols[count] = Convert.ToString(sym);
+        count++;
+      }      
+   }
+   return symbols;
+}
